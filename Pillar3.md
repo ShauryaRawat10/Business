@@ -23,3 +23,7 @@
 - Invoicing does impact general ledger/subledger
 - Table: D365.CustTrans
   - Stores all posted customer related transactions at the header level
+  - Contains many transaction types
+    - Sales: Sales Order Invoices
+    - Cust: Free Text Invoices (FTI) - These are not associated with sales order
+    - Project: Project Invoices
