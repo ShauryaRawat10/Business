@@ -18,3 +18,8 @@
 
 - D365.salesTable holds the integrated fields from Oracle ('UKG_') prefix
 - SalesTable.SalesPoolId represent the Sales Order Pool (sales categories/ grouping)
+
+#### Invoices
+- Invoicing does impact general ledger/subledger
+- Table: D365.CustTrans
+  - Stores all posted customer related transactions at the header level
